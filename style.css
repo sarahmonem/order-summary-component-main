@@ -16,7 +16,7 @@
 body {
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: hsl(225, 100%, 98%);
+  background-color: hsl(225deg 100% 95%);
 }
 .card {
   width: 30rem !important;
