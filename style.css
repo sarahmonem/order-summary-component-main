@@ -4,10 +4,13 @@
   font-family: "Red Hat Display", sans-serif;
 }
 
-@media (min-width: 376px) {
-  body {
-    background-image: url(/images/pattern-background-desktop.svg);
+@media (max-width: 376px) {
+  .bg {
+    display: none;
   }
+}
+.bg {
+  position: absolute;
 }
 body {
   background-size: cover;
@@ -46,14 +49,16 @@ body {
   align-items: center;
   border-radius: 15px;
   margin: 10px auto;
+  flex-flow: wrap;
 }
 .price {
   display: flex;
   align-items: center;
+  flex-flow: wrap;
 }
 .card-body {
   flex: 1 1 auto;
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
 }
 .plan {
   display: flex;
