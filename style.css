@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+@media (min-width: 376px) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+  }
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
+}
+.card {
+  width: 30rem !important;
+  border: none;
+  box-shadow: 0 0 10px #00000038;
+  border-radius: 15px;
+}
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+.card-text {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+.price-card {
+  padding: 15px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin: 10px auto;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 4rem;
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+}
+.price img {
+  padding-right: 15px;
+}
+.plan-title {
+  font-weight: 600;
+}
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+}
+.change:hover {
+  color: hsl(240deg 100% 70%);
+  text-decoration: none;
+}
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 15px 0px;
+  margin: 24px auto;
+  font-weight: 700;
+  transition: all ease 0.5s;
+  text-decoration: none;
+}
+.payment:hover {
+  background-color: hsl(240deg 100% 70%);
+  color: #fff;
+  box-shadow: 0px 6px 10px 10px #9595d754;
+}
+.cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  text-decoration: none;
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
